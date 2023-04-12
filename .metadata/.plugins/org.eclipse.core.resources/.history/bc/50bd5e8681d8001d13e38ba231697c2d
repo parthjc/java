@@ -1,0 +1,39 @@
+package com.royal.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class FirstconfigServlet extends HttpServlet{
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	
+		ServletConfig config = getServletConfig();
+		
+		
+		System.out.println("GETCONFIG-> " +getServletConfig());
+		System.out.println("GETCONTEXT-> " +getServletContext());
+
+		PrintWriter out = resp.getWriter();
+		
+		out.print("C" + config.getInitParameter("C"));
+		out.print("C++" + config.getInitParameter("C++"));
+		out.print("JAVA" + config.getInitParameter("JAVA"));
+		out.print("PYTHON" + config.getInitParameter("PYTHON"));
+		
+		
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doPost(req, resp);
+	}
+
+}

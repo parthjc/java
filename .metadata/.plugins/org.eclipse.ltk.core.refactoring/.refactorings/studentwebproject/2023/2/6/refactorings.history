@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;studentwebproject/src/main/webapp/student.css&apos; to &apos;studentedit.css&apos;" description="Rename resource &apos;student.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/student.css" name="studentedit.css" stamp="1675673720764" updateReferences="true"/>
+</session>

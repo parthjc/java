@@ -1,0 +1,61 @@
+
+
+body{
+
+	background-color: #F0F2F5;
+
+}
+
+table{
+	
+	position: absolute;
+	left:518px  ;
+	top: 80px ;
+	background-color:#FFFFFF;
+	padding: 20px; 
+	
+	
+}
+
+input{
+
+	height:10px ;
+	width:300px ;
+	margin: 3px;
+
+}
+
+td{
+
+	width:180px ;
+	height:30px ;
+	
+}
+
+button{
+
+	width: 340px;
+	height:30px ;
+	background-color: #1877F2;
+	color: #FFFFFF ;
+	
+}
+
+h1{
+
+	text-align: center;
+
+}
+
+.inpt{
+
+	padding: 14px 16px;
+
+}
+
+.btn{
+
+	padding: 0px 16px;
+}
+
+

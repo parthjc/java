@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;industrywebproject/src/main/java/com/royal/controller/EmployeeUpadateServlet.java&apos; to &apos;EmployeeUpdateServlet.java&apos;" description="Rename resource &apos;EmployeeUpadateServlet.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/royal/controller/EmployeeUpadateServlet.java" name="EmployeeUpdateServlet.java" stamp="1672757178561" updateReferences="true"/>
+</session>

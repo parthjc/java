@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/Mar/2023:22:48:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:22:48:28 +0530] "GET /industrywebproject/ HTTP/1.1" 200 828
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:22:48:28 +0530] "GET /industrywebproject/Empstylesheet.css HTTP/1.1" 200 491
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:22:48:28 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [22/Mar/2023:22:51:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Mar/2023:22:51:11 +0530] "GET /first_web_project/First_Servlet HTTP/1.1" 200 13

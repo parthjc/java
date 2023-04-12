@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestAppinit/src/main/java/com/royal/controller/FirstAttributeSessionServlet.java&apos; to &apos;LoginSessionServlet.java&apos;" description="Rename resource &apos;FirstAttributeSessionServlet.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/royal/controller/FirstAttributeSessionServlet.java" name="LoginSessionServlet.java" stamp="1675317480848" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TestAppinit/src/main/java/com/royal/folder&apos; to &apos;util&apos;" description="Rename resource &apos;folder&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/royal/folder" name="util" stamp="1674060003208" updateReferences="true"/>
+</session>

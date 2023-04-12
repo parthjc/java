@@ -1,0 +1,60 @@
+body{
+
+    background-image:url("student.png"); 
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    
+    
+}
+
+img{
+
+	opacity: 0.1;
+
+}
+
+table{
+	
+	
+	position: absolute;
+	left:   580px;
+	bottom: 200px;
+	width: 300px;
+	color: #000000;
+	background-color: white;
+	opacity: 0.8;
+	padding-left: 55px;
+	padding-bottom: 50px;
+}
+
+
+
+td{
+
+	font-size: large;
+	font-style: inherit;
+	font-weight: bold;
+	color: black;
+    
+
+}
+
+
+th{
+
+	
+	padding: 20px;
+	padding-right: 70px;
+	font-size: x-large; 
+
+}
+
+.submit{
+
+	position: absolute;
+	right: 65px;
+	bottom: 20px;
+	padding-right: 62px;
+	padding-left: 70px;
+	
+}

@@ -1,0 +1,44 @@
+package com.royal.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class SecondconfigServlet extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	
+		resp.setContentType("text/html");
+
+		ServletContext context = getServletContext();
+		
+		
+		System.out.println("GETCONFIG-> " +getServletConfig());
+		System.out.println("GETCOntext-> " +getServletContext());
+	
+	
+		PrintWriter out = resp.getWriter();
+		
+
+		out.print("<h2>");
+		out.print("C->      " + context.getContext("C")+"<br>");
+		out.print("C++->    " + context.getContext("C++")+"<br>");
+		out.print("JAVA->   " + context.getContext("JAVA")+"<br>");
+		out.print("PYTHON-> " + context.getContext("PYTHON")+"<br>");
+		out.print("</h2>");
+	
+	
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doPost(req, resp);
+	}
+}

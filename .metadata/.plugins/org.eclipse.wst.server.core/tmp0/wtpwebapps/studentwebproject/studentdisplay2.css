@@ -1,0 +1,54 @@
+body{
+
+    background-image:url("student.png"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1400px;
+    background-color: white;
+  
+    
+
+   
+}
+
+img{
+
+	opacity: 0.1;
+}
+
+a{
+	text-decoration: none;
+}
+
+table{
+	
+	
+	position:absolute;
+	left:400px;
+	color: #000000;
+	background-color: white;
+	opacity: 0.8;
+	
+}
+
+
+th{
+	font-size: x-large;
+	font-style: inherit;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+td{
+
+	font-size: large;
+	font-style: inherit;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	padding: 15px;
+
+}

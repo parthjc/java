@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;first_web_project/src/main/java/com/royal/controller/FirstGetAttribute.java&apos; to &apos;SecondGetAttribute.java&apos;" description="Rename resource &apos;FirstGetAttribute.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/royal/controller/FirstGetAttribute.java" name="SecondGetAttribute.java" stamp="1681317170053" updateReferences="true"/>
+</session>
